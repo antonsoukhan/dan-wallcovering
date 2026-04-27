@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* 1rem = 10px */
+html {
+  font-family: 'Inter', sans-serif;
+  font-size: 62.5%;
+  color: #1a1a2e;
+}
+
+/* 944px (Tablets) */
+@media (max-width: 59rem) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/* 704px (Smaller tablets) */
+@media (max-width: 44rem) {
+  html {
+    font-size: 43.75%;
+  }
+}
+
+/* 544px (Phones) */
+@media (max-width: 34rem) {
+  html {
+    font-size: 50%;
+  }
+}
+
+::selection {
+  background-color: #c9982c;
+  color: #fff;
+}

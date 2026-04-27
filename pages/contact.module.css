@@ -1,0 +1,157 @@
+.btnFixedBox {
+  position: fixed;
+  right: 13rem;
+  bottom: 12rem;
+  z-index: 999;
+}
+
+.contactSection {
+  padding: 8rem 4rem 12rem;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.heroText {
+  text-align: center;
+  margin-bottom: 8rem;
+}
+
+.heading {
+  font-size: 5rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.subheading {
+  font-size: 2rem;
+  color: #555;
+  max-width: 60rem;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  margin-bottom: 10rem;
+}
+
+.card {
+  background-color: #f7f7fb;
+  padding: 5rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  row-gap: 1.2rem;
+  border-radius: 0.8rem;
+}
+
+.iconBox {
+  width: 8rem;
+  height: 8rem;
+  background-color: #19144b;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+
+.icon {
+  color: #fff;
+  font-size: 3.4rem;
+}
+
+.cardTitle {
+  font-size: 2.6rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+}
+
+.cardText {
+  font-size: 1.7rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.phoneLink {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #19144b;
+  text-decoration: none;
+  border-bottom: 2px solid #c9982c;
+  padding-bottom: 0.2rem;
+}
+
+.cardHighlight {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #c9982c;
+}
+
+.callToAction {
+  text-align: center;
+  background-color: #19144b;
+  padding: 7rem 4rem;
+  border-radius: 0.8rem;
+}
+
+.ctaHeading {
+  font-size: 3.5rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.ctaPhone {
+  color: #c9982c;
+  text-decoration: none;
+  border-bottom: 2px solid #c9982c;
+  padding-bottom: 0.2rem;
+}
+
+.ctaSub {
+  font-size: 1.8rem;
+  color: #ccc;
+}
+
+/* 850px */
+@media (max-width: 53.125rem) {
+  .cardGrid {
+    grid-template-columns: 1fr;
+    max-width: 60rem;
+    margin: 0 auto 10rem;
+  }
+}
+
+/* 544px (Phones) */
+@media (max-width: 34rem) {
+  .btnFixedBox {
+    right: 8rem;
+    bottom: 8rem;
+  }
+
+  .contactSection {
+    padding: 5rem 2rem 8rem;
+  }
+
+  .heading {
+    font-size: 4rem;
+  }
+
+  .subheading {
+    font-size: 2.2rem;
+  }
+
+  .ctaHeading {
+    font-size: 2.8rem;
+  }
+
+  .card {
+    padding: 4rem 3rem;
+  }
+}

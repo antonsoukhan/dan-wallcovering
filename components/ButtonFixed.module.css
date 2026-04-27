@@ -1,0 +1,36 @@
+.buttonContainer {
+  transition: all 0.2s;
+  display: block;
+  width: 2rem;
+  height: 2rem;
+}
+
+.button:link,
+.button:visited {
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #c9982c;
+  color: #fff;
+  padding: 3rem;
+  font-size: 1.8rem;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.2s;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.button:hover,
+.button:active {
+  background-color: #b5841f;
+}
+
+/* 544px (Phones) */
+@media (max-width: 34rem) {
+  .button:link,
+  .button:visited {
+    font-weight: 900;
+    padding: 2.1rem;
+    font-size: 1.9rem;
+  }
+}

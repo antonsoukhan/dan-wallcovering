@@ -1,0 +1,38 @@
+.buttonContainer {
+  transition: all 0.2s;
+  display: inline-block;
+}
+
+.button:link,
+.button:visited {
+  border-radius: 4rem;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #c9982c;
+  color: #fff;
+  padding: 2.4rem 4.8rem;
+  font-size: 1.8rem;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.button:hover,
+.button:active {
+  background-color: #b5841f;
+}
+
+/* 544px (Phones) */
+@media (max-width: 34rem) {
+  .button:link,
+  .button:visited {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 23.125rem) {
+  .button:link,
+  .button:visited {
+    padding: 2rem 2.6rem;
+  }
+}

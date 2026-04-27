@@ -1,0 +1,14 @@
+.btnFixedBox {
+  position: fixed;
+  right: 13rem;
+  bottom: 12rem;
+  z-index: 999;
+}
+
+/* 544px (Phones) */
+@media (max-width: 34rem) {
+  .btnFixedBox {
+    right: 8rem;
+    bottom: 8rem;
+  }
+}

@@ -1,0 +1,48 @@
+.container {
+  padding: 12rem 0;
+  background-color: #f7f7fb;
+}
+
+.textInnerContainer {
+  width: 65%;
+  margin: auto;
+  text-align: center;
+}
+
+.headingSecondary {
+  margin-bottom: 3rem;
+  font-size: 3.5rem;
+  line-height: 1.2;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+}
+
+.bold {
+  color: #c9982c;
+}
+
+.buttonContainer {
+  text-align: center;
+}
+
+/* 544px (Phones) */
+@media (max-width: 34rem) {
+  .container {
+    padding: 9rem 0;
+  }
+
+  .textInnerContainer {
+    width: 80%;
+  }
+
+  .headingSecondary {
+    text-align: left;
+  }
+}
+
+/* 376px */
+@media (max-width: 23.5rem) {
+  .textInnerContainer {
+    width: 85%;
+  }
+}
