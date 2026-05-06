@@ -1,5 +1,5 @@
 .section {
-  background-color: #f7f7fb;
+  background-color: #1a1a1a;
   padding: 9rem 0 12rem;
 }
 
@@ -34,7 +34,7 @@
   width: 7rem;
   height: 7rem;
   grid-row: 1 / span 2;
-  background-color: #19144b;
+  background-color: #c9982c;
   border-radius: 10rem;
   margin-bottom: 1rem;
   display: flex;

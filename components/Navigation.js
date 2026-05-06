@@ -18,6 +18,14 @@ const Navigation = () => {
               (951) 858-4019
             </a>
           </p>
+          <p className={styles.phone}>
+            <span className={styles.iconWrap}>
+              <FaPhoneAlt className={styles.icon} />
+            </span>
+            <a href='tel:7149311401' className={styles.tel}>
+              (714) 931-1401
+            </a>
+          </p>
         </div>
 
         <div className={styles.menu}>

@@ -53,6 +53,9 @@ const ContactPage = () => {
               <a href='tel:9518584019' className={styles.phoneLink}>
                 (951) 858-4019
               </a>
+              <a href='tel:7149311401' className={styles.phoneLink}>
+                (714) 931-1401
+              </a>
             </div>
 
             <div className={styles.card}>
@@ -78,7 +81,7 @@ const ContactPage = () => {
 
           <div className={styles.callToAction}>
             <h2 className={styles.ctaHeading}>
-              Call <a href='tel:9518584019' className={styles.ctaPhone}>(951) 858-4019</a> for a Free Estimate
+              Call <a href='tel:9518584019' className={styles.ctaPhone}>(951) 858-4019</a> or <a href='tel:7149311401' className={styles.ctaPhone}>(714) 931-1401</a> for a Free Estimate
             </h2>
             <p className={styles.ctaSub}>No job too small or too large — we do it all with care.</p>
           </div>

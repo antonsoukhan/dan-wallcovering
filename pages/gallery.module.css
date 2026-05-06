@@ -25,7 +25,7 @@
 
 .subheading {
   font-size: 2rem;
-  color: #555;
+  color: #aaa;
   max-width: 60rem;
   margin: 0 auto;
   line-height: 1.6;
@@ -63,7 +63,7 @@
 
 .caption {
   font-size: 1.6rem;
-  color: #555;
+  color: #aaa;
   font-style: italic;
   text-align: center;
 }

@@ -1,6 +1,6 @@
 .footer {
-  background-color: #fff;
-  border-top: 1px solid #f0ede8;
+  background-color: #0f0f0f;
+  border-top: 1px solid #2a2a2a;
 }
 
 .logoContainer {
@@ -13,7 +13,7 @@
 .copyrightContainer {
   display: flex;
   justify-content: center;
-  color: #555;
+  color: #888;
   font-size: 1.5rem;
   padding-bottom: 2rem;
 }
@@ -28,9 +28,9 @@
 
 .wbaLink:link,
 .wbaLink:visited {
-  color: #904b20;
+  color: #c9982c;
   text-decoration: none;
-  border-bottom: 0.1rem solid #904b20;
+  border-bottom: 0.1rem solid #c9982c;
   padding-bottom: 0.1rem;
   transition: all 0.2s;
   font-weight: 500;
@@ -38,7 +38,7 @@
 
 .wbaLink:hover,
 .wbaLink:active {
-  color: #904b20;
+  color: #c9982c;
 }
 
 /* 544px (Phones) */

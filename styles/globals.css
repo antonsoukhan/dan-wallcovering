@@ -12,7 +12,8 @@
 html {
   font-family: 'Inter', sans-serif;
   font-size: 62.5%;
-  color: #1a1a2e;
+  color: #fff;
+  background-color: #0f0f0f;
 }
 
 /* 944px (Tablets) */
