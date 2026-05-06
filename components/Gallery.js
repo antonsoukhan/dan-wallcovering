@@ -12,8 +12,8 @@ const Gallery = () => {
           <Image
             width={500}
             height={500}
-            src='/images/hero.jpg'
-            alt='Elegant staircase hallway with teal striped wallpaper and chandelier'
+            src='/images/4626.jpg'
+            alt='Master bedroom with modern botanical palm leaf wallpaper covering all walls'
             className={styles.img}
           />
         </figure>
@@ -21,8 +21,8 @@ const Gallery = () => {
           <Image
             width={500}
             height={500}
-            src='/images/b.jpg'
-            alt='Luxury foyer with teal wallpaper, ornate gold mirrors and white decorative door'
+            src='/images/4439.jpg'
+            alt='Hallway with bold geometric interlocking circle wallpaper pattern in dark gray'
             className={styles.img}
           />
         </figure>
@@ -30,8 +30,8 @@ const Gallery = () => {
           <Image
             width={500}
             height={500}
-            src='/images/c.jpg'
-            alt='Grand entryway with teal wallpaper, arched transom window and ornate gold door hardware'
+            src='/images/4502.jpg'
+            alt='Powder room with natural tan grasscloth wallpaper extending floor to ceiling'
             className={styles.img}
           />
         </figure>

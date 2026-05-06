@@ -7,6 +7,76 @@ import styles from './gallery.module.css';
 
 const galleryImages = [
   {
+    src: '/images/4626.jpg',
+    alt: 'Master bedroom with modern botanical palm leaf wallpaper covering all walls',
+    caption: 'Botanical Print — Master Bedroom',
+  },
+  {
+    src: '/images/4627.jpg',
+    alt: 'Bedroom with botanical leaf wallpaper, wall-mounted TV and marble fireplace',
+    caption: 'Botanical Wallpaper — Bedroom Feature Wall',
+  },
+  {
+    src: '/images/4628.jpg',
+    alt: 'Corner view of bedroom showing botanical leaf wallpaper wrapping the entire room',
+    caption: 'Botanical Print — Full Room Installation',
+  },
+  {
+    src: '/images/4439.jpg',
+    alt: 'Hallway with bold geometric interlocking circle wallpaper pattern in dark gray',
+    caption: 'Geometric Pattern — Residential Hallway',
+  },
+  {
+    src: '/images/4553.jpg',
+    alt: 'Spiral staircase curved soffit covered in cream and gold floral damask wallpaper',
+    caption: 'Damask Wallpaper — Spiral Staircase Soffit',
+  },
+  {
+    src: '/images/4502.jpg',
+    alt: 'Powder room with natural tan grasscloth wallpaper extending floor to ceiling',
+    caption: 'Grasscloth — Bathroom Installation',
+  },
+  {
+    src: '/images/4426.jpg',
+    alt: 'Laundry room with silver embossed damask wallpaper surrounding a white arched door',
+    caption: 'Embossed Damask — Laundry Room',
+  },
+  {
+    src: '/images/4447.jpg',
+    alt: 'Curved staircase arch with floral damask wallpaper in dark charcoal tones',
+    caption: 'Damask Wallpaper — Staircase Arch',
+  },
+  {
+    src: '/images/4457.jpg',
+    alt: 'Curved interior wall covered in rich gold and bronze damask wallpaper pattern',
+    caption: 'Gold Damask — Curved Wall Installation',
+  },
+  {
+    src: '/images/4459.jpg',
+    alt: 'Bright room with gold amber damask wallpaper and large multi-pane windows',
+    caption: 'Gold Damask — Residential Parlor',
+  },
+  {
+    src: '/images/4465.jpg',
+    alt: 'Library with gold damask wallpaper, dark wood columns and decorative railing',
+    caption: 'Gold Damask — Library and Study',
+  },
+  {
+    src: '/images/4469.jpg',
+    alt: 'Spacious home office with cream and gold damask wallpaper and panoramic windows',
+    caption: 'Damask Wallpaper — Home Office',
+  },
+  {
+    src: '/images/4437.jpg',
+    alt: 'Open kitchen and bar area with subtle textured wall covering and wood beam ceiling',
+    caption: 'Textured Wall Covering — Residential Kitchen',
+  },
+  {
+    src: '/images/4536.jpg',
+    alt: 'Large commercial wall mural installation at Big Air trampoline park',
+    caption: 'Commercial Wall Mural — Big Air Trampoline Park',
+  },
+  {
     src: '/images/hero.jpg',
     alt: 'Elegant staircase hallway with luxury teal striped wallpaper and chandelier',
     caption: 'Classic Striped Wallpaper — Residential Foyer',
