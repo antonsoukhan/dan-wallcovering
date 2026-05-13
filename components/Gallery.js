@@ -12,8 +12,8 @@ const Gallery = () => {
           <Image
             width={500}
             height={500}
-            src='/images/4626.jpg'
-            alt='Master bedroom with modern botanical palm leaf wallpaper covering all walls'
+            src='/images/4627.jpg'
+            alt='Bedroom with botanical leaf wallpaper, wall-mounted TV and marble fireplace'
             className={styles.img}
           />
         </figure>
@@ -30,8 +30,8 @@ const Gallery = () => {
           <Image
             width={500}
             height={500}
-            src='/images/4502.jpg'
-            alt='Powder room with natural tan grasscloth wallpaper extending floor to ceiling'
+            src='/images/4553.jpg'
+            alt='Spiral staircase curved soffit covered in cream and gold floral damask wallpaper'
             className={styles.img}
           />
         </figure>

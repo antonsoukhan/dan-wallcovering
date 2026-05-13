@@ -7,11 +7,6 @@ import styles from './gallery.module.css';
 
 const galleryImages = [
   {
-    src: '/images/4626.jpg',
-    alt: 'Master bedroom with modern botanical palm leaf wallpaper covering all walls',
-    caption: 'Botanical Print — Master Bedroom',
-  },
-  {
     src: '/images/4627.jpg',
     alt: 'Bedroom with botanical leaf wallpaper, wall-mounted TV and marble fireplace',
     caption: 'Botanical Wallpaper — Bedroom Feature Wall',
@@ -30,11 +25,6 @@ const galleryImages = [
     src: '/images/4553.jpg',
     alt: 'Spiral staircase curved soffit covered in cream and gold floral damask wallpaper',
     caption: 'Damask Wallpaper — Spiral Staircase Soffit',
-  },
-  {
-    src: '/images/4502.jpg',
-    alt: 'Powder room with natural tan grasscloth wallpaper extending floor to ceiling',
-    caption: 'Grasscloth — Bathroom Installation',
   },
   {
     src: '/images/4426.jpg',
