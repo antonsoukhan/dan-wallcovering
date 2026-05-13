@@ -8,6 +8,10 @@ const Footer = () => {
         <Logo />
       </div>
 
+      <div className={styles.licenseContainer}>
+        <p className={styles.licenseText}>Unlicensed — License Pending</p>
+      </div>
+
       <div className={styles.copyrightContainer}>
         <p className={styles.wbaContainer}>
           Built by&nbsp;

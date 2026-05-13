@@ -10,6 +10,18 @@
   padding: 4rem 3rem 3rem;
 }
 
+.licenseContainer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+.licenseText {
+  font-size: 1.4rem;
+  color: #888;
+  letter-spacing: 0.5px;
+}
+
 .copyrightContainer {
   display: flex;
   justify-content: center;
