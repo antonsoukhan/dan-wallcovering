@@ -7,6 +7,31 @@ import styles from './gallery.module.css';
 
 const galleryImages = [
   {
+    src: '/images/5199.jpg',
+    alt: 'Silver metallic shimmer textured wallpaper covering a bedroom feature wall',
+    caption: 'Metallic Shimmer — Bedroom Feature Wall',
+  },
+  {
+    src: '/images/5201.jpg',
+    alt: 'Bronze wavy textured wallpaper dramatically lit by two wall sconces',
+    caption: 'Textured Wall Covering — Accent Wall with Sconce Lighting',
+  },
+  {
+    src: '/images/5205.jpg',
+    alt: 'Plaid tartan pattern wallpaper wrapping a bright room with gray-trimmed windows',
+    caption: 'Plaid Pattern — Full Room Installation',
+  },
+  {
+    src: '/images/5207.jpg',
+    alt: 'Silver embossed floral damask wallpaper in a powder room with white arched door',
+    caption: 'Embossed Damask — Powder Room',
+  },
+  {
+    src: '/images/5213.jpg',
+    alt: 'Plaid tartan wallpaper in a laundry room with dark navy cabinets and open shelving',
+    caption: 'Plaid Pattern — Laundry Room',
+  },
+  {
     src: '/images/4627.jpg',
     alt: 'Bedroom with botanical leaf wallpaper, wall-mounted TV and marble fireplace',
     caption: 'Botanical Wallpaper — Bedroom Feature Wall',
