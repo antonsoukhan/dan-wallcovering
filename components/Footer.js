@@ -9,7 +9,7 @@ const Footer = () => {
       </div>
 
       <div className={styles.licenseContainer}>
-        <p className={styles.licenseText}>Unlicensed — License Pending</p>
+        <p className={styles.licenseText}>License Pending &nbsp;·&nbsp; Fully Insured</p>
       </div>
 
       <div className={styles.copyrightContainer}>
@@ -27,7 +27,7 @@ const Footer = () => {
           </span>
           &nbsp;
         </p>
-        <p>&copy; 2025 by Dan Miller Wall Covering. All rights reserved.</p>
+        <p>&copy; 2026 by Dan Miller Wall Covering. All rights reserved.</p>
       </div>
     </footer>
   );
