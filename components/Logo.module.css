@@ -4,7 +4,7 @@
 }
 
 .logoImage {
-  width: 16rem;
+  width: 12rem;
   height: 7rem;
   object-fit: fill;
 }
@@ -12,15 +12,7 @@
 /* BELOW 1050px */
 @media (max-width: 65.625rem) {
   .logoImage {
-    width: 24rem;
-    height: 10rem;
-  }
-}
-
-/* BELOW 544px */
-@media (max-width: 34rem) {
-  .logoImage {
-    width: 22rem;
-    height: 9.5rem;
+    width: 16rem;
+    height: 11rem;
   }
 }

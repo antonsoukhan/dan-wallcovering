@@ -38,13 +38,6 @@
   margin-bottom: 8rem;
 }
 
-.grid > *:last-child:nth-child(odd) {
-  grid-column: 1 / -1;
-  max-width: 80rem;
-  margin: 0 auto;
-  width: 100%;
-}
-
 .figureContainer {
   display: flex;
   flex-direction: column;
@@ -103,11 +96,6 @@
 
   .grid {
     grid-template-columns: 1fr;
-  }
-
-  .grid > *:last-child:nth-child(odd) {
-    grid-column: auto;
-    max-width: 100%;
   }
 
   .imgContainer {
