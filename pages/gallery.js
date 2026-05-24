@@ -106,6 +106,11 @@ const galleryImages = [
     alt: 'Grand entryway with teal wallpaper, arched transom window and gold door hardware',
     caption: 'Grand Foyer — Full Room Wall Covering Installation',
   },
+  {
+    src: '/images/5989.jpeg',
+    alt: 'Dan Miller installing gold and green botanical floral wallpaper on a custom closet ceiling in Southern California',
+    caption: 'Botanical Ceiling Wallpaper — Custom Closet Installation',
+  },
 ];
 
 const GalleryPage = () => {

@@ -4,24 +4,23 @@
 }
 
 .logoImage {
-  width: auto;
+  width: 16rem;
   height: 7rem;
-  max-width: 22rem;
-  object-fit: contain;
+  object-fit: fill;
 }
 
 /* BELOW 1050px */
 @media (max-width: 65.625rem) {
   .logoImage {
-    height: 12rem;
-    max-width: 28rem;
+    width: 24rem;
+    height: 10rem;
   }
 }
 
 /* BELOW 544px */
 @media (max-width: 34rem) {
   .logoImage {
-    height: 13rem;
-    max-width: 42rem;
+    width: 22rem;
+    height: 9.5rem;
   }
 }
