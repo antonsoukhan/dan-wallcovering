@@ -4,8 +4,21 @@ import ButtonFixed from '@/components/ButtonFixed';
 import Image from 'next/image';
 import Button from '@/components/Button';
 import styles from './gallery.module.css';
+import { useState } from 'react';
+import Lightbox from 'yet-another-react-lightbox';
+import 'yet-another-react-lightbox/styles.css';
 
 const galleryImages = [
+  {
+    src: '/images/mural-mediterranean.jpg',
+    alt: 'Large-scale Mediterranean coastal arch mural wallpaper installation in a residential home in Southern California',
+    caption: 'Mediterranean Coastal Mural — Full Wall Installation',
+  },
+  {
+    src: '/images/mural-sculpture-portrait.jpg',
+    alt: '3D sculptural portrait mural wallpaper of a woman in a wide-brim hat installed in a luxury residential room',
+    caption: 'Sculptural Portrait Mural — Luxury Residential Installation',
+  },
   {
     src: '/images/5199.jpg',
     alt: 'Silver metallic shimmer textured wallpaper covering a bedroom feature wall',
@@ -88,8 +101,13 @@ const galleryImages = [
   },
   {
     src: '/images/4536.jpg',
-    alt: 'Large commercial wall mural installation at Big Air trampoline park',
-    caption: 'Commercial Wall Mural — Big Air Trampoline Park',
+    alt: 'Large commercial wall mural installation at Big Air trampoline park in Arizona',
+    caption: 'Commercial Wall Mural — Big Air Trampoline Park, Arizona',
+  },
+  {
+    src: '/images/mural-big-air-arizona.jpg',
+    alt: 'Wide-angle view of Big Air trampoline park commercial wall mural installation in Arizona',
+    caption: 'Commercial Wall Mural — Big Air Trampoline Park, Arizona',
   },
   {
     src: '/images/hero.jpg',
@@ -114,6 +132,11 @@ const galleryImages = [
 ];
 
 const GalleryPage = () => {
+  const [open, setOpen] = useState(false);
+  const [index, setIndex] = useState(0);
+
+  const slides = galleryImages.map((img) => ({ src: img.src }));
+
   return (
     <>
       <Head>
@@ -152,19 +175,27 @@ const GalleryPage = () => {
 
           <div className={styles.grid}>
             {galleryImages.map((img, i) => (
-              <figure key={i} className={styles.figureContainer}>
+              <figure key={i} className={styles.figureContainer} onClick={() => { setIndex(i); setOpen(true); }}>
                 <div className={styles.imgContainer}>
                   <Image
                     src={img.src}
                     alt={img.alt}
                     fill
                     className={styles.img}
+                    priority={i < 2}
                   />
                 </div>
                 <figcaption className={styles.caption}>{img.caption}</figcaption>
               </figure>
             ))}
           </div>
+
+          <Lightbox
+            open={open}
+            close={() => setOpen(false)}
+            index={index}
+            slides={slides}
+          />
 
           <div className={styles.ctaBox}>
             <p className={styles.ctaText}>Love what you see? Let&apos;s talk about your project.</p>

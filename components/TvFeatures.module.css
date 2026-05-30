@@ -1,0 +1,115 @@
+.section {
+  background-color: #1a1a1a;
+  padding: 8rem 4rem;
+}
+
+.inner {
+  max-width: 130rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.eyebrow {
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #c9982c;
+  margin-bottom: 2.5rem;
+}
+
+.textBlock {
+  margin-bottom: 6rem;
+}
+
+.heading {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 5.5rem;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.1;
+  margin-bottom: 3rem;
+}
+
+.body {
+  font-size: 1.8rem;
+  color: #999;
+  max-width: 64rem;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.body em {
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 5rem;
+}
+
+.figureContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.4rem;
+}
+
+.imgContainer {
+  position: relative;
+  height: 48rem;
+  overflow: hidden;
+}
+
+.img {
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.5s ease;
+}
+
+.imgContainer:hover .img {
+  transform: scale(1.04);
+}
+
+.caption {
+  font-size: 1.5rem;
+  color: #888;
+  font-style: italic;
+}
+
+/* BELOW 1050px */
+@media (max-width: 65.625rem) {
+  .heading {
+    font-size: 4.2rem;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 544px (Phones) */
+@media (max-width: 34rem) {
+  .section {
+    padding: 5rem 2rem;
+  }
+
+  .heading {
+    font-size: 3.4rem;
+  }
+
+  .body {
+    font-size: 1.9rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .imgContainer {
+    height: 35rem;
+  }
+}

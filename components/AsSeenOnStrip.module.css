@@ -1,0 +1,42 @@
+.strip {
+  background-color: #1a1a1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2rem;
+  padding: 2rem 2rem;
+}
+
+.label {
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #c9982c;
+}
+
+.divider {
+  color: #444;
+  font-size: 1.6rem;
+}
+
+.show {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.2rem;
+  font-style: italic;
+  color: #fff;
+}
+
+/* 544px (Phones) */
+@media (max-width: 34rem) {
+  .strip {
+    flex-direction: column;
+    row-gap: 0.4rem;
+    padding: 1.6rem 2rem;
+    text-align: center;
+  }
+
+  .divider {
+    display: none;
+  }
+}

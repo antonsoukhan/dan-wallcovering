@@ -3,6 +3,8 @@ import Header from '/components/Header';
 import Intro from '@/components/Intro';
 import Features from '@/components/Features';
 import Gallery from '@/components/Gallery';
+import TvFeatures from '@/components/TvFeatures';
+import AsSeenOnStrip from '@/components/AsSeenOnStrip';
 import CTA from '@/components/CTA';
 import Footer from '@/components/Footer';
 import ButtonFixed from '@/components/ButtonFixed';
@@ -61,12 +63,14 @@ const HomePage = () => {
 
       <main>
         <Header />
+        <AsSeenOnStrip />
         <div className={styles.btnFixedBox}>
           <ButtonFixed />
         </div>
         <Intro />
         <Features />
         <Gallery />
+        <TvFeatures />
         <CTA />
       </main>
       <Footer />
