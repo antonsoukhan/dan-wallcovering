@@ -62,6 +62,35 @@
   color: #c9982c;
 }
 
+.services {
+  width: 70%;
+  margin: 9rem auto 0;
+  text-align: center;
+}
+
+.servicesHeading {
+  margin-bottom: 3rem;
+  font-size: 2.8rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+}
+
+.servicesList {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.serviceTag {
+  padding: 1rem 2rem;
+  border: 1px solid #c9982c;
+  border-radius: 10rem;
+  color: #c9982c;
+  font-size: 1.6rem;
+}
+
 /* 850px */
 @media (max-width: 53.125rem) {
   .gridItem {
@@ -97,6 +126,15 @@
 
   .text {
     font-size: 2.2rem;
+  }
+
+  .services {
+    width: 85%;
+    margin-top: 6rem;
+  }
+
+  .serviceTag {
+    font-size: 1.8rem;
   }
 }
 

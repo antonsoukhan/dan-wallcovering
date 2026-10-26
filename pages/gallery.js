@@ -141,7 +141,7 @@ const GalleryPage = () => {
     <>
       <Head>
         <title>Gallery | Dan Miller Wall Covering</title>
-        <meta name='description' content='Browse our portfolio of professional wallpaper and wall covering installations by Dan Miller Wall Covering in Southern California.' />
+        <meta name='description' content='Browse our portfolio of wallpaper installation, wallcovering, wall murals and custom murals by paperhanger Dan Miller Wall Covering in Southern California.' />
         <link rel='canonical' href='https://www.danmillerwallcovering.com/gallery' />
 
         {/* Open Graph */}

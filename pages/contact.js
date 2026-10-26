@@ -11,7 +11,7 @@ const ContactPage = () => {
     <>
       <Head>
         <title>Contact | Dan Miller Wall Covering</title>
-        <meta name='description' content='Contact Dan Miller Wall Covering for professional wallpaper installation in Southern California. Call (951) 858-4019 for a free estimate.' />
+        <meta name='description' content='Contact Dan Miller Wall Covering, a professional paperhanger for wallpaper installation, wall murals, custom murals and peel and stick wallpaper in Southern California. Call (951) 858-4019 for a free estimate.' />
         <link rel='canonical' href='https://www.danmillerwallcovering.com/contact' />
 
         {/* Open Graph */}
@@ -64,7 +64,7 @@ const ContactPage = () => {
               </span>
               <h2 className={styles.cardTitle}>Service Area</h2>
               <p className={styles.cardText}>
-                Proudly serving homeowners, interior designers, and contractors throughout
+                Proudly serving homeowners, interior designers, interior decorators, and contractors throughout
               </p>
               <p className={styles.cardHighlight}>Southern California</p>
             </div>
